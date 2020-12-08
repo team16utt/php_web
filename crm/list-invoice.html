@@ -183,12 +183,6 @@
                                 <span class="hide-menu">Dashboard</span>
                             </a>
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="icon-envelope-open"></i><span class="hide-menu">Mailbox</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a href="app-email.html">Mailbox</a></li>
-                                <li><a href="app-email-detail.html">Mailbox Detail</a></li>                                
-                            </ul>
-                        </li>
 
                         <li class="nav-small-cap">--- QUẢN LÝ</li>
 
@@ -197,7 +191,7 @@
                                     class="hide-menu">Admin</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="list-admin.html">All Admin</a></li>
-                              
+
                             </ul>
                         </li>
                         <li> <a class="has-arrow waves-effect waves-dark" href="javascript:void(0)"
@@ -266,17 +260,95 @@
 
                 <div class="row page-titles">
                     <div class="col-md-5 align-self-center">
-                        <h4 class="text-themecolor">Page title</h4>
+                        <h4 class="text-themecolor">New invoice</h4>
                     </div>
                     
                 </div>
                 <!-- ============================================================== -->
                 <!-- Bread crumb and right sidebar toggle -->
-                <!-- ============================================================== -->               
+                <!-- ============================================================== -->
                 <!-- start  main content -->
 
                 <!-- import code hereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                             
+                                <div class="table-responsive m-t-40">
+                                    <table id="example23" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Invoice Number</th>
+                                                <th>Client Name</th>
+                                                <th>Email</th>
+                                                <th>Phone Number</th>
+                                                <th>Date of Created</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
 
+                                            <tr>
+                                                <td>69 <span class="label label-success">New</span> </td>
+                                                <td>Barbara Harrison</td>
+                                                <td>Feedfire</td>
+                                                <td>bharrison1w@google.cn</td>
+                                                <td>55-(626)444-5980</td>
+                                                <td>12/6/2014</td>
+                                                <td>
+                                                    <div class="obj-action">
+                                                        <div class="ac">
+
+                                                            <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                                                title="Detail"><i class="fas fa-info-circle"></i></a>
+                                                        </div>
+                                                        <div class="ac">
+                                                            <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                                                title="Edit"><i class="far fa-edit"></i> </a>
+                                                        </div>
+                                                        <div class="ac">
+                                                            <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                                                title="Delete"><i class="far fa-trash-alt"></i></a>
+                                                        </div>
+
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>70 <span class="label label-success">New</span></td>
+                                                <td>Shirley Freeman</td>
+                                                <td>Oyonder</td>
+                                                <td>sfreeman1x@dmoz.org</td>
+                                                <td>63-(612)356-9955</td>
+                                                <td>3/30/2015</td>
+                                                <td>
+                                                    <div class="obj-action">
+                                                        <div class="ac">
+
+                                                            <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                                                title="Detail"><i class="fas fa-info-circle"></i></a>
+                                                        </div>
+                                                        <div class="ac">
+                                                            <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                                                title="Edit"><i class="far fa-edit"></i> </a>
+                                                        </div>
+                                                        <div class="ac">
+                                                            <a href="#" data-toggle="tooltip" data-placement="bottom"
+                                                                title="Delete"><i class="far fa-trash-alt"></i></a>
+                                                        </div>
+
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- ============================================================== -->
                 <!-- End Page Content -->
@@ -332,7 +404,7 @@
         <!-- footer -->
         <!-- ============================================================== -->
         <footer class="footer">
-            © 2020 tình yêu là duy tâm hay là duy vật
+            © 2020 Eliteadmin by themedesigner.in
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
@@ -370,18 +442,16 @@
     <script src="../assets/node_modules/peity/jquery.peity.min.js"></script>
     <script src="../assets/node_modules/peity/jquery.peity.init.js"></script>
 
-    
+
     <!--JS import file -->
     <script src="../assets/node_modules/dropify/dist/js/dropify.min.js"></script>
-
-    <!-- js-add-item -->
     <script src="../assets/node_modules/dff/dff.js" type="text/javascript"></script>
 
     <script>
         $(document).ready(function () {
             // Basic
             $('.dropify').dropify();
-            
+
 
             // Translated
             $('.dropify-fr').dropify({
@@ -425,7 +495,7 @@
     <!-- Js phan trang  -->
     <script src="../assets/node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="../assets/node_modules/datatables.net-bs4/js/dataTables.responsive.min.js"></script>
-  
+
 
     <script>
         $(function () {
